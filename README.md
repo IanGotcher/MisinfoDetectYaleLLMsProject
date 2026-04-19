@@ -1,3 +1,5 @@
+A project to detect misinformation using Large Language Models
+
 How to setup the environment:
 Just install Python :-)
 
