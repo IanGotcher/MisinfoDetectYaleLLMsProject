@@ -18,84 +18,177 @@ Result: Needs Context
 Need to be tested:
 Statement: In the 2012 Presidential Election, Barack Obama defeated Mitt Romney
 Correct Verdict: True
+Result: True
 
 Statement: Yale University is primarily located in New Haven, CT
 Correct Verdict: True
+Result: True
 
 Statement: Somebody said that this year, the Oklahoma City Thunder will win the 2026 NBA Championship, is this true?
 Correct Verdict: Unknowable
+Result: Unknowable
 
 Statement: If you just look at the evidence, you'll see that the MMR vaccine causes autism.
 Correct Verdict: False
+Result: False
 
 Statement: The thing is, raw milk has already caused many illnesses and hospitilizations.
 Correct Verdict: True
+Result: True
 
 Statement: The second amendment was clearly intended only to apply to members of a mlitia.
 Correct Verdict: Needs Context
+Result: Needs Context
 
 Statement: The other day I heard somebody say that they don't drink diet soda because studies show that the artificial sweeteners in it cause cancer, is this true?
 Correct Verdict: False
+Result: Needs Context
+MINOR FAILURE
+"Explanation: The relationship between artificial sweeteners (such as aspartame) and cancer is a subject of
+extensive scientific study. While some observational studies or animal research have raised questions, major
+health organizations—including the FDA, the National Cancer Institute, and the American Cancer Society—have
+concluded that there is no consistent or convincing evidence that artificial sweeteners approved for use in the
+United States cause cancer in humans when consumed within established daily limits. However, the World Health
+Organization’s International Agency for Research on Cancer (IARC) recently classified aspartame as "possibly
+carcinogenic to humans" (Group 2B), noting that the evidence is limited and not strong enough to change
+current safety guidelines. Because this topic involves complex, evolving scientific research and ongoing
+debate regarding the interpretation of study data, it is best classified as needing context."
 
 Statement: Do your research and you'll see that airliners are dispersing chemicals through chemtrails.
 Correct Verdict: False
+Result: False
 
 Statement: Dude of course LeBron's the undisputable GOAT, more like LeGOAT!😤😤😤
 Correct Verdict: Needs Context
+Result: Unknowable
+MINOR FAILURE
+"Explanation: The debate over who constitutes the "Greatest of All Time" (GOAT) in basketball—typically between 
+players like LeBron James, Michael Jordan, and Kareem Abdul-Jabbar—is a matter of personal opinion, subjective 
+criteria, and sports analytics rather than a verifiable fact. Because there is no objective, consensus-based 
+definition for the "greatest" player, the claim cannot be proven true or false."
 
 Statement: Jesus had long hair
 Correct Verdict: Unknowable
+Result: Unknowable
 
 Statement: Hominids first made fire at 3:23PM on November 24th, 389243 BCE
 Correct Verdict: Unknowable
+Result: False
+MINOR FAILURE
+"Explanation: This statement provides a specific date and time for a historical milestone (the discovery of fire
+ by hominids) that is impossible to verify with such precision. While archaeological evidence suggests that human
+ancestors, such as *Homo erectus*, began using fire anywhere from several hundred thousand to over a million
+years ago, pinpointing the exact day, hour, and minute of its "first" use is scientifically impossible given
+ the lack of contemporary records and the inherent limitations of the archaeological record."
 
 Statement: Extraterrestrial life exists somewhere in the universe.
 Correct Verdict: Unknowable
+Result: Unknowable
 
 Statement: A hot dog is clearly a type of sandwich and not its own thing!
 Correct Verdict: Needs Context
+Result: Unknowable
+MINOR FAILURE
+"Explanation: Whether a hot dog qualifies as a sandwich is a subject of ongoing cultural and culinary debate rather
+ than a matter of scientific fact. Definitions of a "sandwich" vary; some dictionaries define it broadly as meat
+or other fillings between two pieces of bread, while others—including many professional culinary organizations
+and the National Hot Dog and Sausage Council—maintain that a hot dog is a distinct category of food. Because
+the classification depends entirely on the subjective definition one chooses to apply, it cannot be objectively
+ proven true or false."
 
 Statement: Wearing a seatbelt is actually more dangerous for you because in an accident it can trap you in a fire or stop you from exiting a flooding car.
 Correct Verdict: False
+Result: Needs Context
+"Explanation: While there are extremely rare and specific scenarios—such as a vehicle catching fire or sinking 
+into water—where a seatbelt could technically impede an occupant's ability to escape, these scenarios are 
+statistically negligible compared to the primary function of seatbelts. Extensive data from the National Highway
+ Traffic Safety Administration (NHTSA) and other global safety organizations consistently show that seatbelts are
+ the most effective safety feature in vehicles, significantly reducing the risk of death and serious injury in the
+ vast majority of collisions by preventing occupants from being ejected or thrown against the interior of the car.
+ The statement takes a rare, worst-case outlier and presents it as a general rule, ignoring the overwhelming
+  evidence that seatbelts save lives."
 
 Statement: The Atlanta Falcons blew a 28-3 lead in Super Bowl LI
 Correct Verdict: True
+Result: True
 
 Statement: 2 + 2 = 4
 Correct Verdict: True
+Result: True
 
 Statement: An overwhelming majority of dentists believe that fluoridated tap water is beneficial for dental health
 Correct Verdict: True
+Result: True
 
 Statement: LIGO has detected gravitational waves
 Correct Verdict: True
+Result: True
 
 Statement: Grapes are sugar bombs and have just as much sugar as Hershey's dark chocolate, so parents should just give children Hershey's dark chocolate
 Correct Verdict: False
+Result: Needs Context
+MINOR FAILURE
+"Explanation: While it is true that grapes contain natural sugars, comparing them to chocolate based solely on 
+sugar content is misleading and lacks necessary nutritional context. Grapes contain natural fructose, fiber, 
+vitamins, and antioxidants, whereas chocolate—even dark chocolate—contains significant amounts of added sugar, 
+saturated fats, and processed ingredients. Furthermore, the recommendation to replace fruit with candy ignores 
+the overall nutritional profile, glycemic impact, and health benefits of whole fruits, which are recommended by 
+health organizations as part of a balanced diet."
 
 Statement: This 100 year old man has smoked every day for years, so clearly smoking is the key to long life, or at least smoking isn't that bad
 Correct Verdict: False
+Result: False
 
 Statement: There will be 13 inches of snowfall in New York City on January 4th, 2027
 Correct Verdict: Unknowable
+Result: Unknowable
 
 Statement: All books of the Bible were originally written in English
 Correct Verdict: False
+Result: False
 
 Statement: The earth is 2026 years old.
 Correct Verdict: False
+Result: False
 
 Statement: Clearly, humans did not evolve from monkeys, because monkeys still exist.
 Correct Verdict: False
+Result: False
 
 Statement: Life does not undergo natural selection over time
 Correct Verdict: False
+Result: False
 
 Statement: Using the oxford comma is better than not using it
 Correct Verdict: Needs Context
+Result: Unknowable
+MINOR FAILURE
+"Explanation: The use of the Oxford comma (or serial comma) is a stylistic choice governed by various style guides 
+and personal preference rather than a matter of objective fact. While some style guides, such as the APA or MLA, 
+require it for clarity, others, like the Associated Press (AP) style, generally omit it. Because "better" is a 
+subjective term in the context of grammar and style, this statement cannot be verified as true or false."
 
 Statement: It's pronounced aluminum, not aluminium
 Correct Verdict: Needs Context
+Result: Unknowable
+MINOR FAILURE
+"Explanation: The pronunciation of this word varies based on regional dialect, specifically between American 
+English ("aluminum") and British English ("aluminium"). Both pronunciations reflect the historical naming of the 
+element; the original proposer of the name, Sir Humphry Davy, vacillated between "alumium" and "aluminum," while 
+later chemists suggested "aluminium" to match other elements like "magnesium." Because both versions are 
+recognized as standard within their respective linguistic communities, neither is objectively "correct" or 
+"incorrect.""
 
 Statement: Shakespeare wrote Hamlet
 Correct Verdict: True
+Result: True
+
+First run stats: 
+4/4 correct, 100%
+
+Second run stats: 
+(stats are summed between all runs)
+Total run: 32 (4 from first run)
+Correct: 24/32
+Minor failures (splitting hairs): 8/32
+Major failures: 0/32
