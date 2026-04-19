@@ -1,0 +1,101 @@
+Tested so far:
+Statement: I heard the Earth is flat, is this true?
+Correct Verdict: False
+Result: False
+
+Statement: Apple is the company that makes the iPhone
+Correct Verdict: True
+Result: True
+
+Statement: Gravitons exist
+Correct Verdict: Unknowable
+Result: Unknowable
+
+Statement: Matthew and Mark were derived from Q
+Correct Verdict: Needs Context
+Result: Needs Context
+
+Need to be tested:
+Statement: In the 2012 Presidential Election, Barack Obama defeated Mitt Romney
+Correct Verdict: True
+
+Statement: Yale University is primarily located in New Haven, CT
+Correct Verdict: True
+
+Statement: Somebody said that this year, the Oklahoma City Thunder will win the 2026 NBA Championship, is this true?
+Correct Verdict: Unknowable
+
+Statement: If you just look at the evidence, you'll see that the MMR vaccine causes autism.
+Correct Verdict: False
+
+Statement: The thing is, raw milk has already caused many illnesses and hospitilizations.
+Correct Verdict: True
+
+Statement: The second amendment was clearly intended only to apply to members of a mlitia.
+Correct Verdict: Needs Context
+
+Statement: The other day I heard somebody say that they don't drink diet soda because studies show that the artificial sweeteners in it cause cancer, is this true?
+Correct Verdict: False
+
+Statement: Do your research and you'll see that airliners are dispersing chemicals through chemtrails.
+Correct Verdict: False
+
+Statement: Dude of course LeBron's the undisputable GOAT, more like LeGOAT!😤😤😤
+Correct Verdict: Needs Context
+
+Statement: Jesus had long hair
+Correct Verdict: Unknowable
+
+Statement: Hominids first made fire at 3:23PM on November 24th, 389243 BCE
+Correct Verdict: Unknowable
+
+Statement: Extraterrestrial life exists somewhere in the universe.
+Correct Verdict: Unknowable
+
+Statement: A hot dog is clearly a type of sandwich and not its own thing!
+Correct Verdict: Needs Context
+
+Statement: Wearing a seatbelt is actually more dangerous for you because in an accident it can trap you in a fire or stop you from exiting a flooding car.
+Correct Verdict: False
+
+Statement: The Atlanta Falcons blew a 28-3 lead in Super Bowl LI
+Correct Verdict: True
+
+Statement: 2 + 2 = 4
+Correct Verdict: True
+
+Statement: An overwhelming majority of dentists believe that fluoridated tap water is beneficial for dental health
+Correct Verdict: True
+
+Statement: LIGO has detected gravitational waves
+Correct Verdict: True
+
+Statement: Grapes are sugar bombs and have just as much sugar as Hershey's dark chocolate, so parents should just give children Hershey's dark chocolate
+Correct Verdict: False
+
+Statement: This 100 year old man has smoked every day for years, so clearly smoking is the key to long life, or at least smoking isn't that bad
+Correct Verdict: False
+
+Statement: There will be 13 inches of snowfall in New York City on January 4th, 2027
+Correct Verdict: Unknowable
+
+Statement: All books of the Bible were originally written in English
+Correct Verdict: False
+
+Statement: The earth is 2026 years old.
+Correct Verdict: False
+
+Statement: Clearly, humans did not evolve from monkeys, because monkeys still exist.
+Correct Verdict: False
+
+Statement: Life does not undergo natural selection over time
+Correct Verdict: False
+
+Statement: Using the oxford comma is better than not using it
+Correct Verdict: Needs Context
+
+Statement: It's pronounced aluminum, not aluminium
+Correct Verdict: Needs Context
+
+Statement: Shakespeare wrote Hamlet
+Correct Verdict: True
