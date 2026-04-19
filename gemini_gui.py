@@ -51,7 +51,7 @@ class GeminiGUI:
 
         try:
             genai.configure(api_key=api_key)
-            # Use gemini-1.5-flash or gemini-1.5-pro for text tasks
+            # Use 'gemini-3.1-flash-lite-preview'
             model = genai.GenerativeModel('gemini-3.1-flash-lite-preview') 
             self.chat_session = model.start_chat(history=[])
             return True
