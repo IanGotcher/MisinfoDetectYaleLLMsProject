@@ -79,19 +79,34 @@ class GeminiGUI:
         self.user_input.delete("1.0", tk.END)
         self.send_button.config(state=tk.DISABLED, text="Thinking...")
 
+        # Add waiting message
+        self.chat_history.config(state=tk.NORMAL)
+        self.waiting_index = self.chat_history.index("end-1c")
+        self.chat_history.insert(tk.END, "System: ", "System Note")
+        self.chat_history.insert(tk.END, "chat message sent to Gemini API, please wait a few seconds...\n\n", "System Note")
+        self.chat_history.config(state=tk.DISABLED)
+        self.chat_history.yview(tk.END)
+
         # Run API call in a thread to keep GUI responsive
         threading.Thread(target=self.get_gemini_response, args=(user_text,)).start()
 
     def get_gemini_response(self, user_text):
         try:
             response = self.chat_session.send_message(user_text)
-            self.root.after(0, self.append_to_chat, "Gemini", response.text)
+            self.root.after(0, self.replace_waiting_with_response, "Gemini", response.text)
         except Exception as e:
-            self.root.after(0, self.append_to_chat, "System Error", str(e))
+            self.root.after(0, self.replace_waiting_with_response, "System Error", str(e))
             # Reset session so user can re-enter valid API key if that was the issue
             self.chat_session = None 
         finally:
             self.root.after(0, lambda: self.send_button.config(state=tk.NORMAL, text="Send"))
+
+    def replace_waiting_with_response(self, sender, message):
+        self.chat_history.config(state=tk.NORMAL)
+        if hasattr(self, 'waiting_index'):
+            self.chat_history.delete(self.waiting_index, "end-1c")
+        self.chat_history.config(state=tk.DISABLED)
+        self.append_to_chat(sender, message)
 
 if __name__ == "__main__":
     root = tk.Tk()
@@ -100,4 +115,5 @@ if __name__ == "__main__":
     app.chat_history.tag_config("You", font=("Arial", 10, "bold"), foreground="blue")
     app.chat_history.tag_config("Gemini", font=("Arial", 10, "bold"), foreground="green")
     app.chat_history.tag_config("System Error", font=("Arial", 10, "bold"), foreground="red")
+    app.chat_history.tag_config("System Note", font=("Arial", 10, "italic"), foreground="gray")
     root.mainloop()
