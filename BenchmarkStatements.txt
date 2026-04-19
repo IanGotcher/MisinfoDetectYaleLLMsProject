@@ -189,6 +189,10 @@ First run stats:
 Second run stats: 
 (stats are summed between all runs)
 Total run: 32 (4 from first run)
-Correct: 24/32
-Minor failures (splitting hairs): 8/32
-Major failures: 0/32
+Completely Correct: 24/32
+Minor failures due to splitting hairs: 8/32
+Major failures where false information was identified as true, or vice versa: 0/32
+Major failure rate: 0%
+When running these benchmarks, the model correctly did not classify any of these statements as No Statement given,
+it correctly returned a verdict in the required format every time, and the program correctly identified the verdict every time.
+Giving a prompt obeisance rate of 100% and a processing success rate of 100%.
