@@ -1,4 +1,3 @@
-Tested so far:
 Statement: I heard the Earth is flat, is this true?
 Correct Verdict: False
 Result: False
@@ -15,7 +14,6 @@ Statement: Matthew and Mark were derived from Q
 Correct Verdict: Needs Context
 Result: Needs Context
 
-Need to be tested:
 Statement: In the 2012 Presidential Election, Barack Obama defeated Mitt Romney
 Correct Verdict: True
 Result: True
