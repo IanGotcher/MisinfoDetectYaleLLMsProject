@@ -1,6 +1,0 @@
-This is Ian Gotcher's Gemini API key (on the free tier), it is the property of Ian Gotcher and should be kept secret.
-Authorization to use the key is granted only to group members and CPSC 5770 graders using and grading the GUI application in our final project. Any other use is unauthorized.
-Key will be revoked on May 6th once final grades have been entered.
-By using this key in any way, you agree to above terms and conditions.
-
-AIzaSyCiXAOTPfCKoV5IRfp4SGrx_JaPKpGIa_Y
